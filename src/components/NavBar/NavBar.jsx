@@ -14,7 +14,7 @@ export default function NavBar() {
       <div className="h-48 mb-4 relative">
         <img src="./images/me.jpg" alt="Me" className="w-full h-full object-cover" />
         <div className="absolute bottom-2 left-0 right-0 text-center bg-blue-200 bg-opacity-40 text-gray-800 py-1">
-          <span className="font-ruwudu font-bold text-xl md:text-2xl lg:text-3xl">
+          <span className="font-ruwudu font-bold text-xl md:text-xl lg:text-2xl">
             Smithy Telusnord
           </span>
         </div>
@@ -49,27 +49,27 @@ export default function NavBar() {
       </Link>
     </div>
     <div className="p-4 mt-auto">
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-          <a
-            href="https://github.com/Stelusno"
-            className="flex items-center text-gray-300 hover:text-white font-gruppo text-sm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub className="mr-2" />
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/smithy-telusnord"
-            className="flex items-center text-gray-300 hover:text-white font-gruppo text-sm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillLinkedin className="mr-2" />
-            LinkedIn
-          </a>
-        </div>
+      <div className="flex flex-col space-y-4">
+        <a
+          href="https://github.com/Stelusno"
+          className="flex items-center text-gray-300 hover:text-white font-gruppo text-sm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillGithub className="mr-2" />
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/smithy-telusnord"
+          className="flex items-center text-gray-300 hover:text-white font-gruppo text-sm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillLinkedin className="mr-2" />
+          LinkedIn
+        </a>
       </div>
-    </nav>
+    </div>
+  </nav>
 );
 }
