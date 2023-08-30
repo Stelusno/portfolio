@@ -11,5 +11,8 @@
 
 # Environment variables
 [build.environment]
+  # Set NODE_OPTIONS to --legacy-peer-deps
+  NODE_OPTIONS = "--legacy-peer-deps"
+
   # Set the environment variable for the desired React version
   REACT_APP_VERSION = "18.2.0"
