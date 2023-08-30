@@ -12,7 +12,7 @@ export default function NavBar() {
     <nav className="bg-gray-800 text-white w-36 min-h-screen flex flex-col justify-between">
       <div className="p-4">
         <div className="h-48 mb-4 relative">
-          <img src="./images/me.jpg" alt="Me" className="w-full h-full object-cover" />
+          <img src="./images/me3.jpg" alt="Me" className="w-full h-full object-cover" />
           <div className="absolute bottom-2 left-0 right-0 text-center bg-blue-200 bg-opacity-40 text-gray-800 py-1">
             <span className="font-gruppo font-bold text-xl md:text-xl lg:text-2xl">
               Smithy Telusnord
