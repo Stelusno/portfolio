@@ -5,53 +5,71 @@ import { TiWorld } from 'react-icons/ti';
 export default function Projects() {
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-gray-700 text-gray-300 p-8">
-      <div className="mt-1 mb-6 text-3xl lg:text-4xl font-gruppo font-bold">
+      <div className="mt-1 mb-28 text-3xl lg:text-4xl font-gruppo font-bold">
         <span className="border-b border-blue-500">Projects</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ProjectCard
           title="The Melting Pot"
-          description="A collaborative project blending various cuisines to create unique dishes."
+          description={
+            <>
+              An innovative restaurant app offering a diverse range of culinary experiences.
+              <br />
+              Technologies Used: Front End (Tailwind, JavaScript, React), Back End (Express.js, Node.js) Database (MongoDB Atlas)
+            </>
+          }
           imageSrc="./images/melting-pot.jpg"
           link1={{
-            text: "Link 1",
+            text: 'Link 1',
             icon: <TiWorld />,
-            url: "https://themelting-pot.onrender.com/"
+            url: 'https://themelting-pot.onrender.com/',
           }}
           link2={{
-            text: "Link 2",
+            text: 'Link 2',
             icon: <AiFillGithub />,
-            url: "https://github.com/Stelusno/project-4"
+            url: 'https://github.com/Stelusno/project-4',
           }}
         />
         <ProjectCard
           title="Beyond The Glo'"
-          description="An exploration of outer space and distant galaxies through stunning imagery."
-          imageSrc="path_to_image2.jpg"
+          description={
+            <>
+              A full-stack web application allowing users to easily navigate, find products, and manage their cart for checkout.
+              <br />
+              Technologies Used: Front End (HTML, CSS, JavaScript), Back End (Node.js, Express) Database (MongoDB Atlas)
+            </>
+          }
+          imageSrc="./images/beyond.jpg"
           link1={{
-            text: "Link 1",
+            text: 'Link 1',
             icon: <TiWorld />,
-            url: "https://example.com"
+            url: 'https://throbbing-butterfly-5826.fly.dev/',
           }}
           link2={{
-            text: "Link 2",
+            text: 'Link 2',
             icon: <AiFillGithub />,
-            url: "https://github.com/yourusername"
+            url: 'https://github.com/Stelusno/project-2',
           }}
         />
         <ProjectCard
           title="Movie Collection"
-          description="Coming Soon"
-          imageSrc="path_to_image3.jpg"
+          description={
+            <>
+              A fullstack web application that enables users to browse, find, and manage their movie collection.
+              <br />
+              Technologies Used: Front End (HTML, CSS, JavaScript) Back End (Python, Django), Database (PostgreSQL).
+            </>
+          }
+          imageSrc="./images/movies.jpg"
           link1={{
-            text: "Link 1",
+            text: 'Link 1',
             icon: <TiWorld />,
-            url: "https://example.com"
+            url: 'https://billowing-frog-6641.fly.dev/',
           }}
           link2={{
-            text: "Link 2",
+            text: 'Link 2',
             icon: <AiFillGithub />,
-            url: "https://github.com/yourusername"
+            url: 'https://github.com/Stelusno/project-3',
           }}
         />
       </div>

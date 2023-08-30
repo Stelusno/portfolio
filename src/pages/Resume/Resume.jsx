@@ -3,12 +3,12 @@ import React from 'react';
 export default function Resume() {
   return (
     <div className="flex flex-col items-center justify-start min-h-screen bg-gray-700 text-gray-300 p-8">
-        <div className="mt-1 mb-10 text-3xl lg:text-4xl font-gruppo font-bold">
-          <span className="border-b border-dotted border-blue-500">
-            Resume
-          </span>
-        </div>
-      <div className="mb-8 text-center">
+      <div className="mt-1 mb-10 text-3xl lg:text-4xl font-gruppo font-bold">
+        <span className="border-b border-dotted border-blue-500">
+          Resume
+        </span>
+      </div>
+      <div className="mb-8 text-center max-h-[70vh] overflow-y-auto"> {/* Set max height and make it scrollable */}
         <h2 className="text-xl lg:text-2xl font-bold font-gruppo mb-4 border-b border-blue-500 pb-2">EXPERIENCE</h2>
         <div className="mb-4">
           <p className="text-base lg:text-md">
@@ -29,7 +29,7 @@ export default function Resume() {
           </p>
         </div>
       </div>
-      <div className="mb-8 text-center">
+      <div className="mb-8 text-center max-h-[70vh] overflow-y-auto"> {/* Set max height and make it scrollable */}
         <h2 className="text-xl lg:text-2xl font-bold font-gruppo mb-4 border-b border-blue-500 pb-2">EDUCATION</h2>
         <div className="mb-4">
           <p className="text-base lg:text-md">

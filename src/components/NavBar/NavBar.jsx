@@ -9,7 +9,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 export default function NavBar() {
   return (
-    <nav className="bg-gray-800 text-white w-36 h-screen flex flex-col justify-between">
+    <nav className="bg-gray-800 text-white w-36 min-h-screen flex flex-col justify-between">
       <div className="p-4">
         <div className="h-48 mb-4 relative">
           <img src="./images/me.jpg" alt="Me" className="w-full h-full object-cover" />

@@ -21,7 +21,7 @@ export default function Home() {
               2500,
               'Sales Engineer',
               2300,
-              'Husband',
+              'Innovator',
               2300,
             ]}
           />
